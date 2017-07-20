@@ -1,0 +1,89 @@
+/*The font to be used in the title*/
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  background-color: black;
+}
+
+/*This is the main div*/
+.divisor {
+  background-color: black;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+
+/*This represents the "Quote Factory" title*/
+.title {
+  font-style: oblique;
+  font-weight: 700;
+  font-family: vt323;
+  font-size: 5.0em;
+  margin: 0 auto;
+  text-shadow: 5px 3px black;
+  text-align: center;
+  color: white;
+  width: 90%;
+}
+
+/*Standard content text.*/
+.content {
+  margin: 0px 0px 50px 30px;
+  color: white;
+  
+}
+
+/* This is the DIV of the quote and author*/
+.changer {
+  text-align: center;
+}
+
+/*This class is gonna be applyed in the paragraph with "content" id*/
+.newFirstClass {
+  font-size: 1.4em;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bold;
+  color: white;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*This class is gonna be applyed in the paragraph with "author" id*/
+.newSecondClass {
+  color: red;
+  margin: 0 auto;
+  height: 100px;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+  
+}
+
+/*Takes off the underline effect on button's links*/
+button a:link{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+/*Putting some space in the last one "DIV" that includes #coded and #name*/
+.codiv {
+  margin: 200px 0px 0px 0px;
+  
+}
+
+/*Paragraph containing the phrase "Coded by" */
+p.coded {
+  color: #468FFF;
+  font-weight: bold;
+  text-shadow: 2px 2px darkblue;
+}
+
+/*Span containing my name "Paulo Raoni" */
+span.name {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px red;
+}
