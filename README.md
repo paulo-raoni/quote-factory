@@ -5,29 +5,30 @@
 
 - Button "Get a Quote!". As this is clicked appears a new random quote on the screen.
 
+- Uses AJAX technique to get random quotes from quotesondesign.com server.
+
 - Button to share the quote on twitter.
 
 - Responsive designed for mobile browsers.
 
 ## Credits
 
-#### Frameworks/Libraries/Preprocessors/Repositories:
+#### Frameworks/Libraries/Preprocessors/Repositories/APIs:
 
 - [jQuery](https://jquery.com/)
 - [Bootstrap](https://getbootstrap.com/css/)
 - [Google Fonts](https://fonts.google.com)
 - [Font Awesome](http://fontawesome.io/)
+- [Quotes On Design API](https://www.quotesondesign.com/)
 
 #### IDE:
 
 - [CODEPEN](https://codepen.io/)
-
 - [Brackets](http://brackets.io/)
 
 #### Special Thanks to:
 
 - [Free Code Camp](https://www.freecodecamp.com/) and [Quincy Larson](https://www.linkedin.com/in/quincylarson/).
-
 - [StackOverFlow](https://stackoverflow.com/) 
 
 ## License
